@@ -10,7 +10,7 @@ Vue3 plugin that provides:
 
 # 安装依赖
 ```bash
-npm install
+npm install @sisin/vue-web-fetch
 ```
 # 使用实例
 ```js
