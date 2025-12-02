@@ -1,0 +1,29 @@
+{
+  "name": "@sisin/vue-web-fetch",
+  "version": "1.0.0",
+  "description": "vue+js+fetch 请求封装组件",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "echo build",
+    "prepublishOnly": "npm run build",
+    "pack": "npm pack --dry-run",
+    "release:patch": "npm run build && npm version patch && npm publish",
+    "release:minor": "npm run build && npm version minor && npm publish",
+    "release:major": "npm run build && npm version major && npm publish"
+  },
+  "keywords": ["vue3", "axios", "auth", "sso", "plugin"],
+  "author": "niceguy",
+  "license": "ISC",
+  "files": [
+    "index.js",
+    "src/*",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}

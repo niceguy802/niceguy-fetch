@@ -1,0 +1,11 @@
+# Editor directories and files
+.idea
+
+# Package Manager
+node_modules
+*.tgz
+*.zip
+*.tar.gz
+
+# file
+package-lock.json
