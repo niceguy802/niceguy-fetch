@@ -8,7 +8,7 @@ Vue3 plugin that provides:
 - router guard helper for protected routes
 - SSO-friendly (backend must set cookie domain: `.example.com`)
 
-# 安装依赖
+# 安装
 ```bash
 npm install @sisin/vue-web-fetch
 ```
