@@ -1,6 +1,6 @@
 {
   "name": "@sisin/vue-web-fetch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue+js+fetch 请求封装组件",
   "main": "index.js",
   "type": "module",
@@ -12,7 +12,13 @@
     "release:minor": "npm run build && npm version minor && npm publish",
     "release:major": "npm run build && npm version major && npm publish"
   },
-  "keywords": ["vue3", "axios", "auth", "sso", "plugin"],
+  "keywords": [
+    "vue3",
+    "axios",
+    "auth",
+    "sso",
+    "plugin"
+  ],
   "author": "niceguy",
   "license": "ISC",
   "files": [
